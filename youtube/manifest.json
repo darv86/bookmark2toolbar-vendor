@@ -1,8 +1,8 @@
 {
-	"description": "Add a bookmark to the toolbar",
+	"description": "Add a YouTube bookmark to the toolbar",
 	"manifest_version": 2,
-	"name": "Bookmark2Toolbar",
-	"version": "1.1.0",
+	"name": "Bookmark2Toolbar - YouTube",
+	"version": "1.0.0",
 
 	"background": {
 		"scripts": ["background.js"]
@@ -17,9 +17,7 @@
 
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "86darv@gmail.com"
+			"id": "86darv@gmail.com.youtube"
 		}
-	},
-
-	"permissions": ["menus", "activeTab"]
+	}
 }
